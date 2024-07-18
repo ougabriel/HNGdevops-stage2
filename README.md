@@ -160,7 +160,7 @@ Submit your task through the designated submission form. Ensure you've:
 
     #7. Create and add docker group
     sudo groupadd docker
-    sudo usermod -aG docker $USER
+    sudo usermod -aG docker $USER 
 
     #8. Start, enable and Check versions
     sudo systemctl start docker
